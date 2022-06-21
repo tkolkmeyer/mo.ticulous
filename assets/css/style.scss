@@ -7,13 +7,14 @@
 The reason I am overriding rather than changing the original selectors in the theme is so that the theme 
 will still recieve support updates.*/
 
-h1 {
-    .title__main--font{
-        @font-face {
-            font-family: reglisse;
-            src: url("../fonts/reglisse/Reglisse_Back.otf") format("opentype");
-            src: url("../fonts/reglisse/Reglisse_Fill.otf") format("opentype");
-        }
-    }
 
+h1.title__main--font{
+    @font-face {
+        font-family: Reglisse;
+        src: url("assets/fonts/reglisse/Reglisse_Back.otf") format("opentype");
+        src: url("assets/fonts/reglisse/Reglisse_Fill.otf") format("opentype");
+        src: url("assets/fonts/reglisse/Reglisse.otf") format("opentype");
+        
+
+    }
 }
