@@ -7,12 +7,9 @@
 The reason I am overriding rather than changing the original selectors in the theme is so that the theme 
 will still recieve support updates.*/
 
-title {
-font-family: mexcellent;
-src: url("assets/fonts/mexcellent/mexcellent 3d.otf") format("opentype");
-}
-
 h1 {
-font-family: mexcellent;
-src: url("assets/fonts/mexcellent/mexcellent 3d.otf") format("opentype"); 
+    @font-face {
+        font-family: mexcellent;
+        src: url("assets/fonts/mexcellent/mexcellent 3d.otf") format("opentype");
+    }
 }
