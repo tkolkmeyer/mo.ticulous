@@ -7,19 +7,12 @@
 The reason I am overriding rather than changing the original selectors in the theme is so that the theme 
 will still recieve support updates.*/
 
-html {
-    font-family: 'Cormorant Garamond', serif;
-}
-
-a {
-  
-  /* mouse over link */
-  a:hover {
-    font-weight:normal
-  }
-  
-  /* selected link */
-  a:active {
-    font-weight:normal
-  }
+pre.header__bio {
+    border: 1px red solid;
+    padding: 0px;
+    background: none;
+    border-radius: 0%;
+    border: 0px;
+    overflow-x: unset;
+    font-family: inherit;
 }
