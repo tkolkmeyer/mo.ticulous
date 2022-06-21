@@ -1,7 +1,7 @@
----
+/* ---
 ---
 
-@import "{{ site.theme }}";
+@import "{{ site.theme }}"; */
 
 * {
     border: 1px red solid;
