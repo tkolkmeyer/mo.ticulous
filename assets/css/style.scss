@@ -7,8 +7,11 @@
 The reason I am overriding rather than changing the original selectors in the theme is so that the theme 
 will still recieve support updates.*/
 
-pre.header__bio {
+.markdown-body {
     font-family: 'Abril Fatface';
+}
+
+pre.header__bio {
     padding: 0px;
     background: none;
     border-radius: 0%;
