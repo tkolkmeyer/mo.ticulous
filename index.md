@@ -1,6 +1,4 @@
 ![Image](assets/images/Orange Nails.jpeg)
-![Image](assets/images/Mango Nails.jpeg)
-![Image](assets/images/Pink Nails.jpeg)
 
 <!-- ## Welcome to GitHub Pages
 
