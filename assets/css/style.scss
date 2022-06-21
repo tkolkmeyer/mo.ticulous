@@ -3,10 +3,11 @@
 
 @import "{{ site.theme }}";
 
-* {
-    border: 1px red solid;
-}
-
 /* The CSS selectors in this file need high specificity to override the selectors in the GitHub pages theme.
 The reason I am overriding rather than changing the original selectors in the theme is so that the theme 
 will still recieve support updates.*/
+
+title {
+font-family: mexcellent;
+src: url("assets/fonts/mexcellent/mexcellent 3d.otf") format("opentype");
+}
