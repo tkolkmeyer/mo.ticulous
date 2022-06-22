@@ -4,15 +4,6 @@
 @import "{{ site.theme }}";
 
 h1.main__title {
-    @font-face {
-        font-family: 'porter_sans_blockblock'!important;
-        src: url('../../fonts/porter-sans-inline-block-webfont.eot');
-        src: url('../../porter-sans-inline-block-webfont.eot?#iefix') format('embedded-opentype'),
-             url('../../porter-sans-inline-block-webfont.woff') format('woff'),
-             url('../../porter-sans-inline-block-webfont.ttf') format('truetype'),
-             url('../../porter-sans-inline-block-webfont.svg#porter_sans_blockblock') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    
-    }
+    font-family: 'porter_sans_blockblock'!important;
+
 }
