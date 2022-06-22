@@ -2,3 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+
+h1.main__title {
+    font-family: 'porter_sans_blockblock'!important;
+}
