@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-h1.main__title {
+h1.main__title > a {
     font-family: 'porter_sans_blockblock'!important;
 
 }
